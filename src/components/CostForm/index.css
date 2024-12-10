@@ -1,0 +1,73 @@
+.form {
+  width: 20%;
+  padding: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.add-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  background: red;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  margin-top: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: white;
+  color: red;
+  border: 2px solid red;
+}
+
+.add-btn:active {
+  background: red;
+  color: white;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  color: black;
+  margin: 10px 0;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:hover {
+  border-color: red;
+  color: red;
+}
+
+input:focus {
+  border-color: red;
+  color: red;
+}
+
+input:hover::placeholder {
+  border-color: red;
+  color: red;
+}
+
+input:focus::placeholder {
+  border-color: red;
+  color: red;
+}
+
+.input::placeholder {
+  color: black;
+}

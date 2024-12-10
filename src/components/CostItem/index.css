@@ -1,0 +1,44 @@
+.item {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  min-height: 20px;
+  border-radius: 5px;
+}
+
+.item:hover {
+  background: red;
+  color: white;
+}
+
+.item:hover .delete-btn {
+  color: white;
+}
+
+.detail {
+  text-align: center;
+  width: 30%;
+  word-wrap: break-word;
+}
+
+.delete-btn {
+  position: absolute;
+  right: 10px;
+  /*top: 10px;*/
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: red;
+  font-size: 18px;
+}
+
+.delete-btn:hover {
+  color: black;
+}
+
+.delete-btn:active {
+  color: red;
+}

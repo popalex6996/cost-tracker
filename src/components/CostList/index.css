@@ -1,0 +1,66 @@
+.list-wrapper {
+  position: relative;
+  width: 60%;
+  min-height: 500px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.list-btns-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.list-btn {
+  height: 20px;
+  color: red;
+  background: white;
+  width: 30%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0;
+}
+
+.list-btn:hover {
+  color: black;
+}
+
+.list-btn:active {
+  color: red;
+}
+
+.list {
+  max-height: 400px;
+  width: 100%;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.total-cost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 90%;
+  bottom: 10px;
+  background: red;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+}
